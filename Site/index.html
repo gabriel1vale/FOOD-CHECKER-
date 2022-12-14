@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FOOD CHECKER</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Roboto", sans-serif
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        .w3-half img {
+            margin-bottom: -6px;
+            margin-top: 16px;
+            opacity: 0.8;
+            cursor: pointer
+        }
+
+        .w3-half img:hover {
+            opacity: 1
+        }
+
+    </style>
+</head>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-grey w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Fechar Menu</a>
+    <div class="w3-container w3-margin-bottom">
+        <img src="img/logocolorida.png" class="w3-center w3-margin-left w3-margin-top" style="width:100%;max-width:160px;" alt="Logo FOODCHECKER">
+    </div>
+    <p class="w3-padding-24"></p>
+    <div class="w3-bar-block w3-center">
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-border-bottom w3-margin-bottom">Sobre</a>
+        <a href="#arroz" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Arroz</a>
+        <a href="#feijão" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Feijão</a>
+        <a href="#açúcar" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Açúcar</a>
+        <a href="#óleo" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Óleo</a>
+        <a href="#farinha" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Farinha</a>
+    </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-indigo w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-indigo w3-margin-right" onclick="w3_open()">☰</a>
+    <span>FOOD CHECKER</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="Fechar Menu Lateral" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="showcase">
+        <h1 class="w3-jumbo"><b>FOOD CHECKER</b></h1>
+        <h1 class="w3-large w3-text-black"><b>O FOOD CHECKER faz o levantamento dos principais itens da cesta básica nos principais mercados da cidade de Marília - SP. Para navegar pelo site, basta selecionar na coluna ao lado o produto desejado e checar suas diferentes marcas, além de seus respectivos preços nos mercados disponíveis.</b></h1>
+    </div>
+
+    <!-- Arroz -->
+    <div class="w3-container" id="arroz" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-indigo"><b>Arroz</b></h1>
+        <hr style="width:860px;border:5px solid black" class="w3-round">
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado TAUSTE</caption>
+            <tr>
+                <th style="width:70%">Arroz</th>
+                <th>Preço</th>
+            <tr>
+                <td>Arroz Broto Legal 7 Grãos Integral Caixa 500g</td>
+                <td>R$11.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Arbório Linha Gourmet Caixa 500g</td>
+                <td>R$13.95</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Cateto Integral Linha Gourmet Caixa 500g</td>
+                <td>R$12.37</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Parboilizado Pacote 5000g</td>
+                <td>R$23.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Preto Integral Linha Gourmet Caixa 500g</td>
+                <td>R$19.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Tipo 1 Pacote 1000g</td>
+                <td>R$5.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Tipo 1 Pacote 5000g</td>
+                <td>R$21.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Broto Legal Vermelho Integral Linha Gourmet Caixa 500g</td>
+                <td>R$24.97</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Gourmet Carnaroli Caixa 1000g</td>
+                <td>R$18.77</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Gourmet Selvagem Caixa 250g</td>
+                <td>R$19.29</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Gourmet Vermelho Caixa 500g</td>
+                <td>R$19.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Integral Pacote 1000g</td>
+                <td>R$4.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Parboilizado Pacote 5000g</td>
+                <td>R$19.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Parboilizado Tipo 1 Pacote 1000g</td>
+                <td>R$4.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Premium Preto Caixa 250g</td>
+                <td>R$12.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil Tipo 1 Pacote 5000g</td>
+                <td>R$18.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Costazurra Carnaroli Caixa 1000g</td>
+                <td>R$17.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Emporio Sao Joao Culinária Italiana Risoto Arbóreo Pacote 1000g</td>
+                <td>R$20.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Emporio Sao Joao Tipo 1 Pacote 5000g</td>
+                <td>R$23.90</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Broto Legal Pacote 1000g</td>
+                <td>R$6.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Patéko Pacote 1000g - Limite de 10 unidades por compra</td>
+                <td>R$4.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Prato Fino Parboilizado Pacote 1000g</td>
+                <td>R$5.47</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Ráris 7 Grãos Integral Alho-Poró Pacote 500g</td>
+                <td>R$8.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Ráris 7 Grãos Integral Cenoura Pacote 1000g</td>
+                <td>R$15.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Ráris 7 Grãos Integral Cenoura Pacote 500g</td>
+                <td>R$8.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Solito Pacote 1000g</td>
+                <td>R$4.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Tio João Orgânico Pacote 1000g</td>
+                <td>R$13.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Tio João Pacote 1000g</td>
+                <td>R$5.85</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Tio João Pacote 500g</td>
+                <td>R$3.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Integral Valle Branco Pacote 1000g</td>
+                <td>R$4.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Iracema Tipo 1 Pacote 2000g</td>
+                <td>R$8.98</td>
+            </tr>
+            <tr>
+                <td>Arroz La Pastina Preto Caixa 500g</td>
+                <td>R$17.98</td>
+            </tr>
+            <tr>
+                <td>Arroz La Pastina Vermelho Caixa 500g</td>
+                <td>R$16.98</td>
+            </tr>
+            <tr>
+                <td>Arroz La Pastina para Paella Caixa 1000g</td>
+                <td>R$19.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Paganini Arbóreo Caixa 1000g</td>
+                <td>R$17.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Paganini Carnaroli Caixa 1000g</td>
+                <td>R$18.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Patéko Parboilizado Pacote 1000g</td>
+                <td>R$4.48</td>
+            </tr>
+            <tr>
+                <td>Arroz Patéko Parboilizado Pacote 5000g</td>
+                <td>R$19.79</td>
+            </tr>
+            <tr>
+                <td>Arroz Patéko Premium Tipo 1 Pacote 5000g</td>
+                <td>R$21.90</td>
+            </tr>
+            <tr>
+                <td>Arroz Patéko Tipo 1 Pacote 1000g</td>
+                <td>R$4.48</td>
+            </tr>
+            <tr>
+                <td>Arroz Patéko Tipo 1 Pacote 5000g - Limite de 6 unidades por compra</td>
+                <td>R$15.98</td>
+            </tr>
+            <tr>
+                <td>Arroz Prato Fino Tipo 1 Pacote 1000g</td>
+                <td>R$5.17</td>
+            </tr>
+            <tr>
+                <td>Arroz Prato Fino Tipo 1 Pacote 5000g</td>
+                <td>R$23.79</td>
+            </tr>
+            <tr>
+                <td>Arroz Ráris 7 Cereais Integral Pacote 1000g</td>
+                <td>R$15.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Ráris 7 Cereais Integral Pacote 500g</td>
+                <td>R$8.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Ráris 7 Grãos Integral Pacote 1000g</td>
+                <td>R$15.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Ráris 7 Grãos Integral Pacote 180g</td>
+                <td>R$4.39</td>
+            </tr>
+        </table>
+
+        <hr style="width:50px;border:5px solid black;margin: auto" class="w3-round w3-margin-top">
+
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado AMIGÃO</caption>
+            <tr>
+                <th style="width:70%">Arroz</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Arroz Emporio Sao Joao T1 5kg</td>
+                <td>R$26.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Dona Milu Tipo 1 5kg</td>
+                <td>R$18.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Namorado Tipo 1 5kg</td>
+                <td>R$20.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Pateko Tipo 1 1kg</td>
+                <td>R$4.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Patosul Tradicional Tipo 5kg</td>
+                <td>R$19.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil 1kg Reserva Especial</td>
+                <td>R$4.75</td>
+            </tr>
+            <tr>
+                <td>Arroz Emporio Sao Joao 1kg</td>
+                <td>R$5.15</td>
+            </tr>
+            <tr>
+                <td>Arroz Solito Integral 1kg</td>
+                <td>R$5.29</td>
+            </tr>
+            <tr>
+                <td>Arroz Raris 7 Graos &amp; Alho Poro 500g</td>
+                <td>R$10.79</td>
+            </tr>
+            <tr>
+                <td>Arroz Emporio Sao Joao 2kg</td>
+                <td>R$12.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Pateko Parboilizado Tipo 1 5kg</td>
+                <td>R$19.89</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil 1kg Parbolizado Integral</td>
+                <td>R$5.95</td>
+            </tr>
+            <tr>
+                <td>Arroz Ramagem Tipo 1 5kg</td>
+                <td>R$21.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Solito Tipo 1 5kg</td>
+                <td>R$19.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Anceli Tipo 1 5kg</td>
+                <td>R$21.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Camil 5kg Reserva Especial</td>
+                <td>R$25.65</td>
+            </tr>
+            <tr>
+                <td>Arroz Guin Oriental Tipo 1 1kg</td>
+                <td>R$8.25</td>
+            </tr>
+            <tr>
+                <td>Arroz Guin Oriental Tipo 1 5kg</td>
+                <td>R$43.85</td>
+            </tr>
+            <tr>
+                <td>Arroz Tio Joao Cozinha Chinesa Preto 500g</td>
+                <td>R$22.45</td>
+            </tr>
+            <tr>
+                <td>Arroz Tio Joao 5kg Tipo 1</td>
+                <td>R$22.90</td>
+            </tr>
+            <tr>
+                <td>Arroz Tio Joao Tipo 1 1kg</td>
+                <td>R$5.39</td>
+            </tr>
+            <tr>
+                <td>Arroz Tio Joao 2kg Tipo 1</td>
+                <td>R$11.49</td>
+            </tr>
+            <tr>
+                <td>Arroz Tio Joao Cozinha &amp; Sabor Arroz Com Galinha 175g</td>
+                <td>R$9.99</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Feijão -->
+    <div class="w3-container" id="feijão" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-indigo"><b>Feijão</b></h1>
+        <hr style="width:860px;border:5px solid black" class="w3-round">
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado TAUSTE</caption>
+            <tr>
+                <th style="width:70%">Feijão</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Feijão Broto Legal Carioca Pacote 1000g</td>
+                <td>R$9.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Broto Legal Jalo Pacote 500g</td>
+                <td>R$7.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Broto Legal Preto Pacote 1000g</td>
+                <td>R$7.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Camil Fradinho Pacote 500g</td>
+                <td>R$5.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Camil Rajado Pacote 500g</td>
+                <td>R$8.85</td>
+            </tr>
+            <tr>
+                <td>Feijão Emporio Sao Joao Carioca Pacote 1000g - Limite de 6 unidades por compra</td>
+                <td>R$6.49</td>
+            </tr>
+            <tr>
+                <td>Feijão Gamadinho Carioca Pacote 1000g</td>
+                <td>R$7.49</td>
+            </tr>
+            <tr>
+                <td>Feijão Patéko Bolinha Pacote 1000g</td>
+                <td>R$14.59</td>
+            </tr>
+            <tr>
+                <td>Feijão Patéko Branco Pacote 500g</td>
+                <td>R$5.14</td>
+            </tr>
+            <tr>
+                <td>Feijão Patéko Fradinho Pacote 500g</td>
+                <td>R$3.39</td>
+            </tr>
+            <tr>
+                <td>Feijão Patéko Preto Pacote 1000g</td>
+                <td>R$6.29</td>
+            </tr>
+            <tr>
+                <td>Feijão Pedretti Carioca Pacote 1000g</td>
+                <td>R$8.85</td>
+            </tr>
+            <tr>
+                <td>Feijão Pedretti Preto Pacote 1000g</td>
+                <td>R$8.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Solito Bolinha Pacote 1000g</td>
+                <td>R$13.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Solito Branco Pacote 500g</td>
+                <td>R$5.49</td>
+            </tr>
+            <tr>
+                <td>Feijão Solito Carioca Pacote 1000g</td>
+                <td>R$7.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Solito Fradinho Pacote 500g</td>
+                <td>R$4.49</td>
+            </tr>
+            <tr>
+                <td>Feijão Solito Preto Pacote 1000g</td>
+                <td>R$6.49</td>
+            </tr>
+            <tr>
+                <td>Feijão Valle Branco Bolinha Pacote 1000g</td>
+                <td>R$13.98</td>
+            </tr>
+            <tr>
+                <td>Feijão Valle Branco Carioca Pacote 1000g</td>
+                <td>R$8.58</td>
+            </tr>
+            <tr>
+                <td>Feijão Valle Branco Preto Pacote 1000g</td>
+                <td>R$6.98</td>
+            </tr>
+        </table>
+
+        <hr style="width:50px;border:5px solid black;margin: auto" class="w3-round w3-margin-top">
+
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado AMIGÃO</caption>
+            <tr>
+                <th style="width:70%">Feijão</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Feijao Carioca 5 Estrelas 1kg</td>
+                <td>R$7.29</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Douradinho 1kg</td>
+                <td>R$7.39</td>
+            </tr>
+            <tr>
+                <td>Feijao Preto Pateko 1kg</td>
+                <td>R$6.89</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Grosso 1kg</td>
+                <td>R$6.99</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Valle Branco 2kg</td>
+                <td>R$17.45</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Valle Branco Tipo 1 1kg</td>
+                <td>R$9.99</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Pateko 1kg</td>
+                <td>R$8.99</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Solito Tipo 1 1kg</td>
+                <td>R$8.15</td>
+            </tr>
+            <tr>
+                <td>Feijao Preto Camil 1kg</td>
+                <td>R$6.99</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Camil 1kg T1</td>
+                <td>R$6.99</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Tio Nobre 1kg</td>
+                <td>R$11.45</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 500g Preto Sel Especial</td>
+                <td>R$5.19</td>
+            </tr>
+            <tr>
+                <td>Feijao Branco Pateko 500g</td>
+                <td>R$5.25</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 500g Carioca Sel Especial</td>
+                <td>R$6.45</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 500g Cavalo Sel Especial</td>
+                <td>R$9.79</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 1kg Vermelho Ouro</td>
+                <td>R$10.45</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 500g Vermelho Sel Especial</td>
+                <td>R$7.75</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Caldo Bom 1kg Ouro</td>
+                <td>R$11.45</td>
+            </tr>
+            <tr>
+                <td>Feijao Caldo Bom 1kg Preto Ouro</td>
+                <td>R$8.19</td>
+            </tr>
+            <tr>
+                <td>Feijao Vasconcelo Preto 1kg</td>
+                <td>R$9.39</td>
+            </tr>
+            <tr>
+                <td>Feijao Bolinha Solito 1kg T1</td>
+                <td>R$15.59</td>
+            </tr>
+            <tr>
+                <td>Feijao Carioca Picinin Serie Ouro 1kg</td>
+                <td>R$8.49</td>
+            </tr>
+            <tr>
+                <td>Feijao Fradinho Pateko 500g</td>
+                <td>R$3.99</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Açúcar -->
+    <div class="w3-container" id="açúcar" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-indigo"><b>Açúcar</b></h1>
+        <hr style="width:860px;border:5px solid black" class="w3-round">
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado TAUSTE</caption>
+            <tr>
+                <th style="width:70%">Açúcar</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Adoçante em Pó Zero Cal Sucralose Caixa 30g</td>
+                <td>R$8.48</td>
+            </tr>
+            <tr>
+                <td>Açúcar Magro Light Pacote 500g</td>
+                <td>R$10.59</td>
+            </tr>
+            <tr>
+                <td>Açúcar Refinado União Fit Pacote 500g</td>
+                <td>R$4.39</td>
+            </tr>
+            <tr>
+                <td>Açúcar Santa Isabel Cristal Pacote 1000g</td>
+                <td>R$3.47</td>
+            </tr>
+            <tr>
+                <td>Açúcar Santa Isabel Cristal Pacote 5000g</td>
+                <td>R$15.79</td>
+            </tr>
+            <tr>
+                <td>Açúcar União Cristal Pacote 1000g</td>
+                <td>R$3.55</td>
+            </tr>
+            <tr>
+                <td>Açúcar União Doçúcar Refinado Granulado Pacote 1000g</td>
+                <td>R$6.49</td>
+            </tr>
+            <tr>
+                <td>Açúcar União Premium Refinado Pacote 1000g</td>
+                <td>R$7.98</td>
+            </tr>
+            <tr>
+                <td>Açúcar União Refinado Pacote 1000g - Limite de 10 unidades por compra</td>
+                <td>R$3.88</td>
+            </tr>
+            <tr>
+                <td>Açúcar em Cubos União Premium Refinado Granulado Caixa 250g</td>
+                <td>R$10.25</td>
+            </tr>
+            <tr>
+                <td>Açúcar em Sachês União Premium Refinado Granulado Caixa C/40 200g</td>
+                <td>R$4.85</td>
+            </tr>
+            <tr>
+                <td>Frutose Lowçucar Caixa 200g</td>
+                <td>R$19.89</td>
+            </tr>
+            <tr>
+                <td>Kit Adoçante Líquido Finn Sucralose 50% de Desconto Na 2ª Unidade Kit C/2 130ml</td>
+                <td>R$16.47</td>
+            </tr>
+            <tr>
+                <td>Kit Doçante Líquido Linea Sucralose 50% Desconto Na 2ª Unidade Conjunto C/2 150ml</td>
+                <td>R$19.19</td>
+            </tr>
+        </table>
+
+        <hr style="width:50px;border:5px solid black;margin: auto" class="w3-round w3-margin-top">
+
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado AMIGÃO</caption>
+            <tr>
+                <th style="width:70%">Açúcar</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Alto Alegre 1kg</td>
+                <td>R$3.69</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Guarani 5kg</td>
+                <td>R$13.98</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Da Barra 1kg</td>
+                <td>R$3.85</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Alto Alegre 2kg</td>
+                <td>R$7.55</td>
+            </tr>
+            <tr>
+                <td>Acucar Alto Alegre Demerara 1kg</td>
+                <td>R$5.25</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Caravelas 5kg</td>
+                <td>R$15.59</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Native Demerara Organico 1kg</td>
+                <td>R$7.75</td>
+            </tr>
+            <tr>
+                <td>Acucar Guarani Refinado 1kg</td>
+                <td>R$3.75</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao 1kg</td>
+                <td>R$4.15</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Uniao Naturale 1kg</td>
+                <td>R$5.99</td>
+            </tr>
+            <tr>
+                <td>Acucar Magro Light 500g</td>
+                <td>R$10.89</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao Premium Sache 200g</td>
+                <td>R$4.55</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao 5kg</td>
+                <td>R$19.45</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao Glacucar 500g</td>
+                <td>R$3.55</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Alto Alegre 5kg</td>
+                <td>R$17.45</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Native Organico 1kg</td>
+                <td>R$6.95</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Uniao Organico 1kg</td>
+                <td>R$5.99</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao Cubos 250g</td>
+                <td>R$10.75</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao Premium 1kg</td>
+                <td>R$6.65</td>
+            </tr>
+            <tr>
+                <td>Acucar Refinado Uniao Fit Light 500g</td>
+                <td>R$4.49</td>
+            </tr>
+            <tr>
+                <td>Acucar Cristal Native Organico 5kg</td>
+                <td>R$28.99</td>
+            </tr>
+            <tr>
+                <td>Acucar Mascavo Saúde da Terra Orgânico 500g</td>
+                <td>R$7.69</td>
+            </tr>
+            <tr>
+                <td>Acucar Docican Mascavo 500g</td>
+                <td>R$5.35</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Óleo -->
+    <div class="w3-container" id="óleo" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-indigo"><b>Óleo</b></h1>
+        <hr style="width:860px;border:5px solid black" class="w3-round">
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado TAUSTE</caption>
+            <tr>
+                <th style="width:70%">Óleo</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Óleo de Canola Sinha Pet 900ml</td>
+                <td>R$13.68</td>
+            </tr>
+            <tr>
+                <td>Óleo de Girassol Sinha Pet 900ml</td>
+                <td>R$12.98</td>
+            </tr>
+            <tr>
+                <td>Óleo de Milho Sinha Pet 900ml</td>
+                <td>R$12.29</td>
+            </tr>
+            <tr>
+                <td>Óleo de Milho Soya Pet 900ml</td>
+                <td>R$14.59</td>
+            </tr>
+            <tr>
+                <td>Óleo de Soja Coamo Pet 900ml</td>
+                <td>R$7.45</td>
+            </tr>
+            <tr>
+                <td>Óleo de Soja Vila Velha Pet 900ml</td>
+                <td>R$7.45</td>
+            </tr>
+        </table>
+
+        <hr style="width:50px;border:5px solid black;margin: auto" class="w3-round w3-margin-top">
+
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado AMIGÃO</caption>
+            <tr>
+                <th style="width:70%">Óleo</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Oleo Soja Liza Pet 900ml</td>
+                <td>R$7.99</td>
+            </tr>
+            <tr>
+                <td>Óleo de Soja Soya Pet 900ml</td>
+                <td>R$8.15</td>
+            </tr>
+            <tr>
+                <td>Oleo Girassol Vitaliv 900ml</td>
+                <td>R$14.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Milho Suavit Pet 900ml</td>
+                <td>R$15.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Girassol Suavit 900ml</td>
+                <td>R$16.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Coco Qualicoco Virgem 200ml</td>
+                <td>R$13.79</td>
+            </tr>
+            <tr>
+                <td>Oleo Canola Liza 900ml</td>
+                <td>R$18.55</td>
+            </tr>
+            <tr>
+                <td>Oleo Canola Purilev 900ml</td>
+                <td>R$18.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Girassol Liza 900ml</td>
+                <td>R$18.89</td>
+            </tr>
+            <tr>
+                <td>Oleo Milho Liza 900ml</td>
+                <td>R$16.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Coco Qualicoco Extra Virgem 200ml</td>
+                <td>R$19.49</td>
+            </tr>
+            <tr>
+                <td>Oleo Canola Suavit 900ml</td>
+                <td>R$15.75</td>
+            </tr>
+            <tr>
+                <td>Oleo Soja Leve Pet 900ml</td>
+                <td>R$7.79</td>
+            </tr>
+            <tr>
+                <td>Oleo Algodao Liza 900ml</td>
+                <td>R$14.45</td>
+            </tr>
+            <tr>
+                <td>Oleo de Milho Mazola Pet 900ml</td>
+                <td>R$16.45</td>
+            </tr>
+            <tr>
+                <td>Oleo Girassol Mazola 900ml</td>
+                <td>R$21.49</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Farinha -->
+    <div class="w3-container" id="farinha" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-indigo"><b>Farinha</b></h1>
+        <hr style="width:860px;border:5px solid black" class="w3-round">
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado TAUSTE</caption>
+            <tr>
+                <th style="width:70%">Farinha</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Coamo Super Premium Pacote 1000g</td>
+                <td>R$5.09</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Coamo com Fermento Pacote 1000g</td>
+                <td>R$4.79</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Dona Benta Embalagem de Papel Pacote 1000g</td>
+                <td>R$6.29</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Globo Embalagem de Papel Pacote 1000g</td>
+                <td>R$4.39</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Globo Superiore Pacote 1000g</td>
+                <td>R$4.79</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Globo com Fermento Pacote 1000g</td>
+                <td>R$4.89</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Nita Embalagem de Papel Pacote 1000g</td>
+                <td>R$5.79</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Venturelli Gourmet Pacote 1000g</td>
+                <td>R$5.97</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Venturelli Integral Pacote 1000g</td>
+                <td>R$5.96</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Venturelli Pacote 1000g - Limite de 10 unidades por compra</td>
+                <td>R$4.98</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Farinha de Trigo Venturelli Pacote 5000g</td>
+                <td>R$24.39</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Semolina de Trigo Venturelli Pacote 1000g</td>
+                <td>R$9.59</td>
+                <td> </td>
+            </tr>
+        </table>
+
+        <hr style="width:50px;border:5px solid black;margin: auto" class="w3-round w3-margin-top">
+
+        <table class="w3-table-all w3-hoverable">
+            <caption class="w3-margin-bottom w3-text-indigo w3-panel w3-border w3-round-xlarge">Mercado AMIGÃO</caption>
+            <tr>
+                <th style="width:70%">Farinha</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Nita Especial 1kg</td>
+                <td>R$5.55</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Anaconda 1kg</td>
+                <td>R$5.15</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Nita Especial 5kg</td>
+                <td>R$26.45</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Cocamar 1kg Papel</td>
+                <td>R$4.25</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Renata Tradicional 1kg</td>
+                <td>R$6.99</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Anaconda Integral 1kg</td>
+                <td>R$5.95</td>
+            </tr>
+            <tr>
+                <td>Semolina Trigo Durum Renata 1kg</td>
+                <td>R$17.45</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Anaconda 5kg</td>
+                <td>R$23.45</td>
+            </tr>
+            <tr>
+                <td>Farinha Trigo Cocamar 5kg Papel</td>
+                <td>R$20.99</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+    <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+</div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+</script>
+
+</body>
+
+</html>
