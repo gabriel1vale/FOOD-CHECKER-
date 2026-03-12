@@ -1,0 +1,26 @@
+{
+  "name": "food-checker-",
+  "version": "1.0.0",
+  "description": "Este é um projeto desenvolvido como parte do curso de **Big Data no Agronegócio** na **FATEC Shunji Nishimura**. Desenvolvido para a disciplina de Projeto Integrador, o FOOD CHECKER envolveu a criação de um webcrawler para coletar informações de produtos básicos de mercados da região de Marília/SP, e um site responsivo para exibir os resultados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-preview": "node generate-preview.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel1vale/FOOD-CHECKER-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gabriel1vale/FOOD-CHECKER-/issues"
+  },
+  "homepage": "https://github.com/gabriel1vale/FOOD-CHECKER-#readme",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "satori": "^0.25.0"
+  }
+}
