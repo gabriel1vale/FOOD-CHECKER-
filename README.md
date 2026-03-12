@@ -2,6 +2,10 @@
 
 Este é um projeto desenvolvido como parte do curso de **Big Data no Agronegócio** na **FATEC Shunji Nishimura**. Desenvolvido para a disciplina de Projeto Integrador, o FOOD CHECKER envolveu a criação de um webcrawler para coletar informações de produtos básicos de mercados da região de Marília/SP, e um site responsivo para exibir os resultados.
 
+![Food Checker Preview](Site/img/food-checker-preview.png)
+
+> *Imagem gerada automaticamente com [Satori](https://github.com/vercel/satori)*
+
 ---
 
 ## 📋 Sobre o Projeto
@@ -22,10 +26,13 @@ FOOD-CHECKER-/
 ├── README.md                      # Documentação do projeto
 ├── FOODCHECKER - MVP.pdf          # Apresentação do projeto (MVP)
 ├── códigos_food_checker.py        # Script do webcrawler (Python)
+├── generate-preview.js            # Geração de imagem com Satori
+├── package.json                   # Dependências Node.js (Satori)
 └── Site/
     ├── index.html                 # Página principal do site
     └── img/
-        └── logocolorida.png       # Logo do projeto
+        ├── logocolorida.png       # Logo do projeto
+        └── food-checker-preview.png # Preview gerado com Satori
 ```
 
 ---
