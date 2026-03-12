@@ -1,5 +1,5 @@
 {
-  "name": "food-checker-",
+  "name": "food-checker",
   "version": "1.0.0",
   "description": "Este é um projeto desenvolvido como parte do curso de **Big Data no Agronegócio** na **FATEC Shunji Nishimura**. Desenvolvido para a disciplina de Projeto Integrador, o FOOD CHECKER envolveu a criação de um webcrawler para coletar informações de produtos básicos de mercados da região de Marília/SP, e um site responsivo para exibir os resultados.",
   "main": "index.js",

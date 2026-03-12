@@ -2,9 +2,26 @@ const { Resvg } = require("@resvg/resvg-js");
 const fs = require("fs");
 const path = require("path");
 
+/**
+ * Generates a PNG preview image of the Food Checker application using Satori.
+ *
+ * Satori renders a markup tree (sidebar + product price table) to SVG, and
+ * @resvg/resvg-js converts the SVG to PNG. The output is saved to
+ * Site/img/food-checker-preview.png.
+ *
+ * Font paths can be customised via FONT_REGULAR and FONT_BOLD environment
+ * variables. When unset, the script falls back to the Lato fonts commonly
+ * found on Ubuntu/Debian systems.
+ *
+ * @throws {Error} If the configured font files cannot be read.
+ */
 async function generateImage() {
-  const fontPath = "/usr/share/fonts/truetype/lato/Lato-Regular.ttf";
-  const fontBoldPath = "/usr/share/fonts/truetype/lato/Lato-Bold.ttf";
+  const fontPath =
+    process.env.FONT_REGULAR ||
+    "/usr/share/fonts/truetype/lato/Lato-Regular.ttf";
+  const fontBoldPath =
+    process.env.FONT_BOLD ||
+    "/usr/share/fonts/truetype/lato/Lato-Bold.ttf";
   const fontData = fs.readFileSync(fontPath);
   const fontBoldData = fs.readFileSync(fontBoldPath);
 
